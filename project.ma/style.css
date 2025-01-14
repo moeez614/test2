@@ -1,0 +1,372 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Tangerine);
+}
+
+body {
+    background-color: #607D8B;
+}
+
+/*..............font awesome.............*/
+.fa-house,
+.fa-diagram-project,
+.fa-code,
+.fa-address-book,
+.fa-address-card {
+    color: #FF9800;
+}
+
+/*...............logo....................*/
+
+.logo {
+    color: #FF9800;
+    font-size: 30px;
+    position: relative;
+    bottom: 90px;
+    right: 25px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Tangerine);
+}
+
+@media screen and (max-width:668px) {
+    .logo {
+        position: relative;
+        top: 10px;
+        right: 0px;
+    }
+}
+
+header {
+    background-color: #162d38;
+    width: 200px;
+    height: 607px;
+    align-content: center;
+    padding-left: 70px;
+    position: fixed;
+}
+
+@media screen and (max-width:668px) {
+    header {
+        width: 100%;
+        height: 100px;
+        padding-left: 20px;
+    }
+}
+
+header nav ul a {
+    text-decoration: none;
+    list-style: none;
+    color: azure;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:668px) {
+    header nav ul a {
+        display: inline-flex;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:668px) {
+    header nav ul i {
+        display: inline-block;
+    }
+}
+
+header nav ul a:hover {
+    color: #FF9800;
+    padding-left: 25px;
+}
+
+/*.........MAIN............*/
+
+.profile-img {
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+
+    margin: 50px;
+}
+
+@media screen and (max-width:668px) {
+    .profile-img {
+        display: inline;
+        float: left;
+        margin-top: 130px;
+    }
+}
+
+.text-info {
+    margin-left: 300px;
+}
+
+@media screen and (max-width:668px) {
+    .text-info {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 0px;
+    }
+}
+
+.text-info h1 {
+    color: #FF9800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Tangerine);
+    margin-top: 20px;
+    animation-name: text-editor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    overflow: hidden;
+
+}
+
+@keyframes text-editor {
+    0% {
+        color: #607D8B;
+    }
+
+    50% {
+        color: #FF9800;
+    }
+
+    100% {
+        color: #607D8B;
+    }
+}
+
+.text-info h2 {
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Tangerine);
+}
+
+.text-info h3 {
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Tangerine);
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width:668px) {
+    .text-info h3 {
+        margin-top: 0px;
+        text-align: center;
+
+    }
+}
+
+/*.......................PROJECTS...........................*/
+
+.project-title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.tap-visit {
+    color: azure;
+}
+
+.project-title a {
+    text-decoration: none;
+    color: #FF9800;
+}
+
+.project {
+    margin-left: 300px;
+}
+
+@media screen and (max-width:668px) {
+    .project {
+        margin: 10px;
+    }
+}
+
+.pet-shop-web-img {
+    width: 400px;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.add-me {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 400px;
+    height: 100px;
+}
+
+/*....................skill start here.....................*/
+.skill-title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.skill-title a {
+    text-decoration: none;
+    color: #FF9800;
+}
+
+.skill {
+    margin-left: 300px;
+}
+
+@media screen and (max-width:668px) {
+    .skill {
+        margin: 10px;
+    }
+}
+
+.skill-text-proud {
+    text-align: center;
+    color: azure;
+    margin-top: 30px;
+}
+
+.container {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.bold-title {
+    color: #FF9800;
+}
+
+.box1 {
+    background-color: #162d38;
+    border-radius: 10px;
+    color: azure;
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.box2 {
+    background-color: #162d38;
+    border-radius: 10px;
+    color: azure;
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.box3 {
+    background-color: #162d38;
+    border-radius: 10px;
+    color: azure;
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.details-skill-box {
+    text-align: center;
+    color: azure;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+/*..................footer...................*/
+footer {
+    background-color: #162d38;
+    height: 200px;
+}
+
+.contact-title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-title a {
+    text-decoration: none;
+    color: #FF9800;
+}
+
+.lets-talk {
+    color: azure;
+    text-align: center;
+}
+
+.footer-cont {
+    display: flex;
+    justify-content: center;
+}
+
+
+.fa-instagram {
+    color: rgb(255, 71, 71);
+    margin-left: auto;
+    padding: 40px;
+    font-size: 30px;
+}
+
+@media screen and (max-width:668px) {
+    .fa-instagram {
+        margin: auto;
+    }
+}
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.nav-button {
+    display: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #444;
+}
+
+@media (max-width: 668px) {
+    .nav-button {
+        display: flex;
+        float: right;
+        margin: 0 45px;
+    }
+
+    .header-nav {
+        display: none;
+    }
+}
+
+.header-nav {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.header-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-nav a:hover {
+    color: #ccc;
+}
